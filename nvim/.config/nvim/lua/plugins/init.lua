@@ -31,7 +31,8 @@ return {
   		ensure_installed = {
         "vim", "lua", "vimdoc",
         "html", "css",
-        "gleam", "helm", "fish"
+        "gleam", "helm", "fish",
+        "nix", "python"
   		},
   	},
   },
