@@ -1,3 +1,6 @@
+if test -d ~/.nix-profile
+  . ~/.nix-profile/etc/profile.d/nix.fish
+end
 if type -q starship
   starship init fish | source
 end
@@ -9,7 +12,3 @@ end
 
 # Created by `pipx` on 2022-07-03 17:24:53
 set PATH $PATH /home/sti/.local/bin
-
-if test -d ~/.nix-profile
-  . ~/.nix-profile/etc/profile.d/nix.fish
-end
