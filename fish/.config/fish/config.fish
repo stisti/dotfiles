@@ -1,5 +1,5 @@
 if test -d ~/.nix-profile
-  . ~/.nix-profile/etc/profile.d/nix.fish
+  source ~/.nix-profile/etc/profile.d/nix.fish
 end
 if type -q starship
   starship init fish | source

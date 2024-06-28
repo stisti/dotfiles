@@ -32,7 +32,7 @@ return {
         "vim", "lua", "vimdoc",
         "html", "css",
         "gleam", "helm", "fish",
-        "nix", "python"
+        "nix", "python", "rust"
   		},
   	},
   },
