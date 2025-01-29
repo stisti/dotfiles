@@ -12,3 +12,8 @@ end
 
 # Created by `pipx` on 2022-07-03 17:24:53
 set PATH $PATH /home/$USER/.local/bin
+
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    eval (keychain --eval --agents ssh)
+end
