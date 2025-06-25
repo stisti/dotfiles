@@ -1,0 +1,8 @@
+[user]
+	name = Sami Tikka
+	email = sti@iki.fi
+[credential]
+	credentialStore = secretservice
+	helper = /home/sti/.nix-profile/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
