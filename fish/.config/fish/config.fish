@@ -1,6 +1,3 @@
-if test -d ~/.nix-profile
-  source ~/.nix-profile/etc/profile.d/nix.fish
-end
 if type -q starship
   starship init fish | source
 end
@@ -15,5 +12,7 @@ set PATH $PATH /home/$USER/.local/bin
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    eval (keychain --eval --agents ssh)
+    if type -q keychain
+        eval (keychain --eval --agents ssh)
+    end
 end

@@ -1,2 +1,2 @@
 
-if test -e /home/sti/.nix-profile/etc/profile.d/nix.fish; . /home/sti/.nix-profile/etc/profile.d/nix.fish; end # added by Nix installer
+if test -e ~/.nix-profile/etc/profile.d/nix.fish; . ~/.nix-profile/etc/profile.d/nix.fish; end # added by Nix installer
