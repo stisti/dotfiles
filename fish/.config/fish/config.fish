@@ -4,6 +4,9 @@ end
 if type -q direnv
   direnv hook fish | source
 end
+if type -q jj
+  jj util completion fish | source
+end
 
 # eval ~/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 
