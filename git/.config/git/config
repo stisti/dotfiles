@@ -7,3 +7,8 @@
 [user]
 	name = Sami Tikka
 	email = sti@iki.fi
+[color "diff"]
+	meta = white bold
+	frag = cyan bold
+	old = red bold
+	new = green bold
